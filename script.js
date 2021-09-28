@@ -5,8 +5,8 @@ let myLibrary = [
 let booklist = document.getElementById("booklist");
 let form = document.getElementById('newbook');
 const clear = document.getElementById("clear");
-let finished = 0;
-let unfinished = 5;
+let finished = 1;
+let unfinished = 1;
 let finishedDisplay = document.getElementById("finished");
 let unfinishedDisplay = document.getElementById("unfinished");
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Quicksand:wght@700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+
+  <div id = "addbook">
+  <h1 id="books">Library</h1>
+  <h3 id="finished"></h3>
+  <h3 id="unfinished"></h3>
+ 
+  <form id="newbook">
+      <input  id="title"  type="text"     placeholder="Title"  name="title"  autocomplete="off"  maxlength="30" required/>
+      <input  id="author" type="text"     placeholder="Author" name="author" autocomplete="off"  maxlength="30" required/>
+      <input  id="pages"  type="number"   placeholder="Pages"  name="pages"  autocomplete="off"  min="0" max="100000"  required/>
+      
+      <div id="readBtn">
+      <label class="switch"><input  id="read" type="checkbox" name="read" > <span class="slider round"></span></label>
+      <label for="read" id="readlabel">Read?</label>
+      </div>
+
+      <button id="btn"    type="submit"   data-rel="back" >Add Book</button>
+      <button id="clear"  type="button"  >Clear fields</button>
+    </form>
+    </form>
+  </div>
+
+
+    
+
+  <div id="main">
+  <table id="booklist"></table>
+</div>
+
+
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
+</input>

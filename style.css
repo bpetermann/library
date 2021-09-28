@@ -6,7 +6,7 @@
 
  body{
   margin: 0px auto;
-  width: 960px; 
+  width: 1060px; 
   background: #2b2a33;
   text-align: center; 
 } 
@@ -14,11 +14,11 @@
  
 #addbook{
   position: fixed;
-  width: 960px; 
+  width: 1060px;  
   background-color: #2b2a33;
   left: 50%;
   top: 0%;
-  margin-left: -480px; 
+  margin-left: -530px;
   padding-bottom: 12px; 
   color: white;
 }
@@ -46,15 +46,15 @@
 
 #title {
   float: left; 
-  width: 240px;
+  width: 280px;
   height: 30px;
   font-size: 16px;
 }
 
 #author{
   float: left; 
-  width: 240px;
-  margin-left: 4em;
+  width: 280px;
+  margin-left: 4.5em;
   height: 30px;
   font-size: 16px;
 }
@@ -62,7 +62,8 @@
 #pages{
   float: left; 
   width: 110px;
-  margin-left: 4em;
+  margin-left: 4.5em;
+  margin-right: 4.5em;
   height: 30px;
   font-size: 16px;
 }
@@ -70,13 +71,12 @@
 #readlabel{
   position: relative;
   top: 9px;
-  left: 30px;
+  left: 10px;
   color: white;
 	letter-spacing: 1px;
   font-size: 18px;
   font-weight: bold;
 }
-
 
 #btn, #clear{
   display: inline-block;
@@ -130,10 +130,8 @@
 
 table{
   background-color: #e0e0e0;
-
-  
   border-collapse: collapse;
-  width: 960px;
+  width: 1060px;
   margin-top: 19.6em;
   
 }

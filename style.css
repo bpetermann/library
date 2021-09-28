@@ -133,7 +133,6 @@ background-color: #e0e0e0;
 border-collapse: collapse;
 width: 1060px;
 margin-top: 19.6em;
-
 }
 
 tr{  
@@ -247,10 +246,10 @@ width: 360px;
 margin-left: -180px;
 }
 
-
 table{
 width: 360px;
 margin-top: 28.8em;
+margin-bottom: 0.8em;
 }
 
 #title {
@@ -267,21 +266,26 @@ font-size: 16px;
 
 #pages{
 width: 280px;
-margin: 5px auto;
-
+margin: 5px auto 10px auto;
 }
 
-#readlabel{
-
-color: white;
-letter-spacing: 1px;
-font-size: 18px;
-font-weight: bold;
-}
 #readBtn{
 width: 280px;
 margin: 10px auto;
+margin-bottom: 0px;
 }
+
+tr{  
+  line-height: 40px;
+  font-size: 1.2em;
+  text-align: center;
+  } 
+
+  #chance{
+    margin-bottom: 0.6em;}
+    
+    #delete{
+    margin-bottom: 0.6em;}
 
 
 }

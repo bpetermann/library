@@ -1,5 +1,10 @@
-Assignment:
-A small Library app.
+# Library
 
-Coming from: [theodinproject](https://www.theodinproject.com)<br>
-View Live: [here](https://bpetermann.github.io/library)
+## Project Overview
+
+### Description
+- A small Library app
+- [View Live](https://bpetermann.github.io/library/)
+
+### Thanks
+- [theodinproject](https://www.theodinproject.com)<br>
